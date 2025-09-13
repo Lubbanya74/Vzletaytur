@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Взлетай Тур — горящие туры из Челябинска</title>
+  <meta name="description" content="Горящие туры из Челябинска от Взлетай Тур. Подберём лучший отдых для вас.">
+  <meta property="og:title" content="Взлетай Тур — горящие туры из Челябинска">
+  <meta property="og:description" content="Подберём лучший отдых для вас! Горящие туры из Челябинска.">
+  <meta property="og:image" content="assets/hero.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-content">
+    <h1>Горящие туры из Челябинска</h1>
+    <p>Подберём лучший отдых для вас</p>
+    <div class="hero-btns">
+      <a href="#cta" class="btn primary">Подобрать тур</a>
+      <a href="https://vk.com/app6326142_-41011547?ref=snippet_im" class="btn secondary" target="_blank" rel="noopener noreferrer">Отзывы</a>
+    </div>
+    <div class="contact-mini">
+      <a href="tel:+79822951163">+7 982 295‑11‑63</a> · 
+      <a href="tel:+79514761421">+7 951 476‑14‑21</a> · 
+      <a href="mailto:anastasia_n@inbox.ru">anastasia_n@inbox.ru</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="benefits">
+    <h2>Почему выбирают нас</h2>
+    <div class="benefits-grid">
+      <div class="benefit">
+        <div class="icon">🌍</div>
+        <h3>Прямые туроператоры</h3>
+        <p>Работаем напрямую с ведущими туроператорами.</p>
+      </div>
+      <div class="benefit">
+        <div class="icon">💸</div>
+        <h3>Лучшие цены</h3>
+        <p>Без скрытых доплат и переплат.</p>
+      </div>
+      <div class="benefit">
+        <div class="icon">🕒</div>
+        <h3>Поддержка 24/7</h3>
+        <p>На связи в любое время, пока вы отдыхаете.</p>
+      </div>
+      <div class="benefit">
+        <div class="icon">⭐</div>
+        <h3>500+ клиентов</h3>
+        <p>Сотни довольных туристов доверяют нам отдых мечты.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="tours">
+    <h2>Популярные направления</h2>
+    <div class="tours-grid">
+      <div class="tour-card">
+        <div class="tour-img" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&amp;fit=crop&amp;w=400&amp;q=60');"></div>
+        <div class="tour-info">
+          <h3>Турция</h3>
+          <p>7–14 дней, вылеты в октябре</p>
+          <p class="price">от 45 000 ₽</p>
+          <a href="#cta" class="btn small">Уточнить</a>
+        </div>
+      </div>
+      <div class="tour-card">
+        <div class="tour-img" style="background-image:url('https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&amp;fit=crop&amp;w=400&amp;q=60');"></div>
+        <div class="tour-info">
+          <h3>Египет</h3>
+          <p>5–10 дней, вылеты в ноябре</p>
+          <p class="price">от 50 000 ₽</p>
+          <a href="#cta" class="btn small">Уточнить</a>
+        </div>
+      </div>
+      <div class="tour-card">
+        <div class="tour-img" style="background-image:url('https://images.unsplash.com/photo-1501776191991-78a5df3363a5?auto=format&amp;fit=crop&amp;w=400&amp;q=60');"></div>
+        <div class="tour-info">
+          <h3>ОАЭ</h3>
+          <p>5–12 дней, вылеты в декабре</p>
+          <p class="price">от 60 000 ₽</p>
+          <a href="#cta" class="btn small">Уточнить</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews-teaser">
+    <h2>Отзывы наших клиентов</h2>
+    <p>Читать реальные отзывы о нашей работе можно в нашей группе.</p>
+    <a href="https://vk.com/app6326142_-41011547?ref=snippet_im" class="btn secondary" target="_blank" rel="noopener noreferrer">Читать отзывы</a>
+  </section>
+
+  <section class="about">
+    <h2>О компании</h2>
+    <p>Мы — турагентство из Челябинска. С 2010 года помогаем людям находить отдых мечты. Наш опыт, надёжность и индивидуальный подход уже оценили сотни клиентов.</p>
+  </section>
+
+  <section id="cta" class="cta-section">
+    <h2>Оставьте заявку на подбор тура</h2>
+    <form id="bookingForm">
+      <div class="form-row">
+        <input type="text" id="name" name="name" placeholder="Ваше имя *" required>
+      </div>
+      <div class="form-row">
+        <input type="tel" id="phone" name="phone" placeholder="Телефон *" required>
+      </div>
+      <div class="form-row">
+        <input type="text" id="direction" name="direction" placeholder="Направление и даты">
+      </div>
+      <div class="form-row">
+        <textarea id="comment" name="comment" placeholder="Комментарий"></textarea>
+      </div>
+      <button type="submit" class="btn primary">Оставить заявку</button>
+    </form>
+    <p class="alternate">
+      Или свяжитесь с нами:
+      <br>
+      <a href="https://vk.com/nashkrai74" target="_blank">VK</a> · 
+      <a href="https://t.me/turagentANikolaeva" target="_blank">Telegram</a> · 
+      <a href="tel:+79822951163">+7 982 295‑11‑63</a> ·
+      <a href="tel:+79514761421">+7 951 476‑14‑21</a> ·
+      <a href="mailto:anastasia_n@inbox.ru">anastasia_n@inbox.ru</a>
+    </p>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-container">
+    <div class="logo">Взлетай Тур</div>
+    <p>&copy; <span id="year"></span> Взлетай Тур. Все права защищены.</p>
+    <nav class="policy-links">
+      <a href="#" target="_blank">Политика конфиденциальности</a>
+      <a href="#" target="_blank">Пользовательское соглашение</a>
+    </nav>
+  </div>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
